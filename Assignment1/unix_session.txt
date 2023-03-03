@@ -1,0 +1,305 @@
+Script started on 2023-03-03 11:44:06+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ ls
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ pwd
+/home/shubhnav/MleFoundation/Assignment1
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ ls -F
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report ls translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ man ls
+[?1049h[22;0;0t[?1h=LS(1)                                               User Commands                                               LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about the FILEs (the current directory by default).  Sort entries alphabetically if none of[m
+       [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see SIZE format below[m
+[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ mkdir theses[K[Kis
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ cd thesis/
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ nano draft.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                           draft.txt                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dW[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25l[3d[?12l[?25h[?25lF[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ls[28d[K[3;13H[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l.[?12l[?25h[?25l[4d[?12l[?25h[?25lI[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l.[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: draft.txt                                                                                           [28;1H(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Cancelled ](B[m[K[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[4;23H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: draft.txt(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 3 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ nano draft.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 3 lines ](B[m[H(B[0;7m  GNU nano 4.8                                           draft.txt                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[mWar is peace.[3dFreedom is slavery.[4dIgnorance is strength.[2d[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ l
+draft.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ ls
+draft.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ touch file.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ rm file.txt 
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ cd [K[K[Kcd ..
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ mv thesis/draft.txt thesis/quotes.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ ls
+[0m[01;34mthesis[0m
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ ls thesis/
+quotes.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ cp thesis/quotes.txt thesis/quotations.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ ls
+[0m[01;34mthesis[0m
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ ls thesis/
+quotations.txt  quotes.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ cd thesis/
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ ls *.txt
+quotations.txt  quotes.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ wc quotes.txt 
+ 3  9 57 quotes.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ wc -l *.txt
+  3 quotations.txt
+  3 quotes.txt
+  6 total
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ wc -l *.txt > lengths.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ ls lengths.txt 
+lengths.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ cat lengths.txt 
+  3 quotations.txt
+  3 quotes.txt
+  6 total
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ sort -n lengths.txt 
+  3 quotations.txt
+  3 quotes.txt
+  6 total
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ sort -n lengths.txt > sorted-lengths.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ ex[Kcho The echo prints text
+The echo prints text
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ sort -n lengths.txt | ha[Kead =[K-n 1
+  3 quotations.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ sort -n lengths.txt | head -n 1[6Pecho The echo prints textsort -n lengths.txt | head -n 1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwc [K[K[K[K[Kwc -l *.r[Ktxt | sort -n 
+  3 lengths.txt
+  3 quotations.txt
+  3 quotes.txt
+  3 sorted-lengths.txt
+ 12 total
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ for filename in quotes.data
+> do 
+> echo $filename
+> head -n 1 $filename | tail -n 1
+> done
+quotes.data
+head: cannot open 'quotes.data' for reading: No such file or directory
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ for filename in quotes.data; do  echo $filename; head -n 1 $filename | tail -n 1; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do  echo $filename; head -n 1 $filena[1P[A]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do  echo $filename; head -n 1 $filenam[1P[A]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do  echo $filename; head -n 1 $filename[1P[A]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do  echo $filename; head -n 1 $filename [1P[A]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; do  echo $filename; head -n 1 $filename[1@ [A]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx; do  echo $filename; head -n 1 $filenam[1@e[A]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; do  echo $filename; head -n 1 $filena[1@m[A]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+quotes.txt
+War is peace.
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ pws
+
+Command 'pws' not found, did you mean:
+
+  command 'pms' from deb pms (0.42-1build4)
+  command 'psw' from deb wise (2.4.1-21)
+  command 'pts' from deb openafs-client (1.8.4~pre1-1ubuntu2.4)
+  command 'ps' from deb procps (2:3.3.16-1ubuntu2.3)
+  command 'pvs' from deb lvm2 (2.03.07-1ubuntu1)
+  command 'pwd' from deb coreutils (8.30-3ubuntu2)
+  command 'rpws' from deb ratpoison (1.4.9-1)
+  command 'pcs' from deb pcs (0.10.4-3)
+  command 'aws' from deb awscli (1.18.69-1ubuntu0.20.04.1)
+
+Try: sudo apt install <deb name>
+
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ pwd
+/home/shubhnav/MleFoundation/Assignment1/thesis
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ ls -lrt
+total 16
+-rw-r--r-- 1 shubhnav shubhnav 57 Mar  3 11:48 quotes.txt
+-rw-r--r-- 1 shubhnav shubhnav 57 Mar  3 11:51 quotations.txt
+-rw-r--r-- 1 shubhnav shubhnav 44 Mar  3 11:55 lengths.txt
+-rw-r--r-- 1 shubhnav shubhnav 44 Mar  3 11:56 sorted-lengths.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ c[Knano mid[K[K[Kscript.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                           script.sh                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mhead[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l  -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l -[K[?12l[?25h[?25l[42m  [49m(B[m[K[?12l[?25h[?25l  -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 1[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$1[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"$1"[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: script.sh                                                                                           [28;1H(B[m[28;30H[?12l[?25h[?25l[28;49H[1K (B[0;7m[ Writing to FIFO... ](B[m[K[28;50H    (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[2;17H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ sc[K[Kls
+lengths.txt  quotations.txt  quotes.txt  script.sh  sorted-lengths.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ scr[K[K[Kbash script.sh quotes.txt 
+War is peace.
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ bash script.sh quotes.txt  | ec -l
+ec: command not found
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ bash script.sh quotes.txt  | ec -l[1P[1@w
+1
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ ge[Krep war quotes.txt 
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ grep war quotes.txt [1@"[1@"
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ cat quotes.txt 
+War is peace.
+Freedom is slavery.
+Ignorance is strength.
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ gecat quotes.txt [7@grep "war"[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@W[1@a[1@r[C[1@ [1P
+[01;31m[KWar[m[K is peace.
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ grep War quotes.txt [1P[1P[1P[1P[C[1@ [1@"[1@i[1@s[1@"
+War [01;31m[Kis[m[K peace.
+Freedom [01;31m[Kis[m[K slavery.
+Ignorance [01;31m[Kis[m[K strength.
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1/thesis[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1/thesis[00m$ cd ..
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ grep [K-r [K[K[K -r is
+[35m[Kthesis/quotes.txt[m[K[36m[K:[m[KWar [01;31m[Kis[m[K peace.
+[35m[Kthesis/quotes.txt[m[K[36m[K:[m[KFreedom [01;31m[Kis[m[K slavery.
+[35m[Kthesis/quotes.txt[m[K[36m[K:[m[KIgnorance [01;31m[Kis[m[K strength.
+[35m[Kthesis/quotations.txt[m[K[36m[K:[m[KWar [01;31m[Kis[m[K peace.
+[35m[Kthesis/quotations.txt[m[K[36m[K:[m[KFreedom [01;31m[Kis[m[K slavery.
+[35m[Kthesis/quotations.txt[m[K[36m[K:[m[KIgnorance [01;31m[Kis[m[K strength.
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ find .
+.
+./thesis
+./thesis/quotes.txt
+./thesis/sorted-lengths.txt
+./thesis/lengths.txt
+./thesis/quotations.txt
+./thesis/script.sh
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ find . -type d
+.
+./thesis
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ find . -type d[Kf
+./thesis/quotes.txt
+./thesis/sorted-lengths.txt
+./thesis/lengths.txt
+./thesis/quotations.txt
+./thesis/script.sh
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ find . -type f[K[K[K[K[K[Kname *.txt
+./thesis/quotes.txt
+./thesis/sorted-lengths.txt
+./thesis/lengths.txt
+./thesis/quotations.txt
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ wc -l $(find . -name "*.data:[K[K[K[K[Ktxt") | sort -n
+  3 ./thesis/lengths.txt
+  3 ./thesis/quotations.txt
+  3 ./thesis/quotes.txt
+  3 ./thesis/sorted-lengths.txt
+ 12 total
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ exit
+exit
+
+Script done on 2023-03-03 12:13:10+05:30 [COMMAND_EXIT_CODE="0"]
