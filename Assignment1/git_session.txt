@@ -1,0 +1,214 @@
+Script started on 2023-03-06 11:49:53+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git diff
+[?1h=[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git diff --staged
+[?1h=[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git log
+[?1h=[33mcommit 8ca0a9a85ea9fbbb85b55c6956d0e29cfe0f2d93[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: TigerMLE <shubhanshu.praja@tigeranalytics.com>[m
+Date:   Mon Mar 6 11:44:31 2023 +0530[m
+[m
+    Conda Session[m
+[m
+[33mcommit 5414c927491ab6081e3a88f36086d547da9ee8ff[m[m
+Author: TigerMLE <shubhanshu.praja@tigeranalytics.com>[m
+Date:   Fri Mar 3 12:16:16 2023 +0530[m
+[m
+    unix session[m
+[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git log  -p -2
+[?1h=[33mcommit 8ca0a9a85ea9fbbb85b55c6956d0e29cfe0f2d93[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: TigerMLE <shubhanshu.praja@tigeranalytics.com>[m
+Date:   Mon Mar 6 11:44:31 2023 +0530[m
+[m
+    Conda Session[m
+[m
+[1mdiff --git a/Assignment1/conda_session.txt b/Assignment1/conda_session.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..0fa6bdf[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/Assignment1/conda_session.txt[m[m
+[36m@@ -0,0 +1,4424 @@[m[m
+[32m+[m[32mScript started on 2023-03-06 11:34:18+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"][m[m
+[32m+[m[32m0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[7m^G[27m[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ conda --version[m[41m[7m^M[27m[m[m
+[32m+[m[32mconda 23.1.0[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[7m^G[27m[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ conda create --nam[m [32m[m[32m[01;32m[00m[01;34m[00me snowflakes biopython[m[41m[7m^M[27m[m[m
+[32m+[m[32mCollecting package metadata (current_repodata.json): done[m[41m[7m^M[27m[m[m
+[32m+[m[32mSolving environment: done[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m## Package Plan ##[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m  environment location: /home/shubhnav/miniconda3/envs/snowflakes[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m  added / updated specs:[m[41m[7m^M[27m[m[m
+[32m+[m[32m    - biopython[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mThe following packages will be downloaded:[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    package                    |            build[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    ---------------------------|-----------------[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    biopython-1.78             |  py310h7f8727e_0         2.4 MB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    blas-1.0                   |              mkl           6 KB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    intel-openmp-2021.4.0      |    h06a4308_3561         4.2 MB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    mkl-2021.4.0               |     h06a4308_640       142.6 MB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    mkl-service-2.4.0          |  py310h7f8727e_0         177 KB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    mkl_fft-1.3.1              |  py310hd6ae3a3_0         567 KB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    mkl_random-1.2.2           |  py310h00e6091_0        1009 KB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    numpy-1.23.5               |  py310hd5efca6_0          10 KB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    numpy-base-1.23.5          |  py310h8e6c178_0         6.7 MB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    openssl-1.1.1t             |       h7f8727e_0         3.7 MB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    python-3.10.9              |       h7a1cb2a_1        26.8 MB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    wheel-0.38.4               |  py310h06a4308_0          64 KB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    ------------------------------------------------------------[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                                           Total:       188.2 MB[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mThe following NEW packages will be INSTALLED:[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  biopython          pkgs/main/linux-64::biopython-1.78-py310h7f8727e_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  blas               pkgs/main/linux-64::blas-1.0-mkl[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.01.10-h06a4308_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  certifi            pkgs/main/linux-64::certifi-2022.12.7-py310h06a4308_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  libffi             pkgs/main/linux-64::libffi-3.4.2-h6a678d5_6[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py310h7f8727e_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py310hd6ae3a3_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py310h00e6091_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  numpy              pkgs/main/linux-64::numpy-1.23.5-py310hd5efca6_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  numpy-base         pkgs/main/linux-64::numpy-base-1.23.5-py310h8e6c178_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  openssl            pkgs/main/linux-64::openssl-1.1.1t-h7f8727e_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  pip                pkgs/main/linux-64::pip-22.3.1-py310h06a4308_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  python             pkgs/main/linux-64::python-3.10.9-h7a1cb2a_1[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  setuptools         pkgs/main/linux-64::setuptools-65.6.3-py310h06a4308_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  sqlite             pkgs/main/linux-64::sqlite-3.40.1-h5082296_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  tzdata             pkgs/main/noarch::tzdata-2022g-h04d1e81_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  wheel              pkgs/main/linux-64::wheel-0.38.4-py310h06a4308_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  xz                 pkgs/main/linux-64::xz-5.2.10-h5eee18b_1[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mProceed ([y]/n)? y[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mDownloading and Extracting Packages[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mnumpy-1.23.5         | 10 KB     |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0%[m[41m [7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mnumpy-base-1.23.5    | 6.7 MB    |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mmkl-service-2.4.0    | 177 KB    |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mopenssl-1.1.1t       | 3.7 MB    |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mmkl-2021.4.0         | 142.6 MB  |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mmkl_fft-1.3.1        | 567 KB    |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mintel-openmp-2021.4. | 4.2 MB    |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mbiopython-1.78       | 2.4 MB    |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[7m^M[27mblas-1.0             | 6 KB      |                                                                               |   [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m0% [m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ q[Kclear
+[H[2J[3J]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git log --stat
+[?1h=[33mcommit 8ca0a9a85ea9fbbb85b55c6956d0e29cfe0f2d93[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: TigerMLE <shubhanshu.praja@tigeranalytics.com>[m
+Date:   Mon Mar 6 11:44:31 2023 +0530[m
+[m
+    Conda Session[m
+[m
+ Assignment1/conda_session.txt | 4424 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 1 file changed, 4424 insertions(+)[m
+[m
+[33mcommit 5414c927491ab6081e3a88f36086d547da9ee8ff[m[m
+Author: TigerMLE <shubhanshu.praja@tigeranalytics.com>[m
+Date:   Fri Mar 3 12:16:16 2023 +0530[m
+[m
+    unix session[m
+[m
+ Assignment1/thesis/lengths.txt        |   3 [32m+[m[m
+ Assignment1/thesis/quotations.txt     |   3 [32m+[m[m
+ Assignment1/thesis/quotes.txt         |   3 [32m+[m[m
+ Assignment1/thesis/script.sh          |   1 [32m+[m[m
+ Assignment1/thesis/sorted-lengths.txt |   3 [32m+[m[m
+ Assignment1/unix_session.txt          | 305 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 6 files changed, 318 insertions(+)[m
+[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git log --pretty=format: [K%h [K[K[K"%h %s" --graph
+[?1h=* 8ca0a9a Conda Session[m
+* 5414c92 unix session[m
+[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git log --since [K=2.weeks
+[?1h=[33mcommit 8ca0a9a85ea9fbbb85b55c6956d0e29cfe0f2d93[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: TigerMLE <shubhanshu.praja@tigeranalytics.com>[m
+Date:   Mon Mar 6 11:44:31 2023 +0530[m
+[m
+    Conda Session[m
+[m
+[33mcommit 5414c927491ab6081e3a88f36086d547da9ee8ff[m[m
+Author: TigerMLE <shubhanshu.praja@tigeranalytics.com>[m
+Date:   Fri Mar 3 12:16:16 2023 +0530[m
+[m
+    unix session[m
+[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git remote -v
+origin	git+ssh://git@github.com/TigerMLE/MleFoundation.git (fetch)
+origin	git+ssh://git@github.com/TigerMLE/MleFoundation.git (push)
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git fetch 
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git fetch origin
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git remote show origin
+* remote origin
+  Fetch URL: git+ssh://git@github.com/TigerMLE/MleFoundation.git
+  Push  URL: git+ssh://git@github.com/TigerMLE/MleFoundation.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ git tag
+[?1h=[K[?1l>]0;shubhnav@TIGER04174: ~/MleFoundation/Assignment1[01;32mshubhnav@TIGER04174[00m:[01;34m~/MleFoundation/Assignment1[00m$ cd ~/.ssh
+]0;shubhnav@TIGER04174: ~/.ssh[01;32mshubhnav@TIGER04174[00m:[01;34m~/.ssh[00m$ ls
+id_ed25519  id_ed25519.pub  id_rsa  id_rsa.pub  known_hosts
+]0;shubhnav@TIGER04174: ~/.ssh[01;32mshubhnav@TIGER04174[00m:[01;34m~/.ssh[00m$ exit
+exit
+
+Script done on 2023-03-06 12:07:20+05:30 [COMMAND_EXIT_CODE="0"]
